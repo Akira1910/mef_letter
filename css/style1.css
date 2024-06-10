@@ -1,0 +1,37 @@
+/* CSS */
+.navbar {
+  background: black;
+}
+ .navbar-nav .nav-link {
+    font-size: 30px; /* Adjust the font size as needed */
+    padding: 20px; /* Adjust the padding as needed */
+  }
+
+.nav-link {
+  color: #6ff781; /* Set default text color for nav links */
+  padding: 8px 15px; /* Add padding to create spacing between links */
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+.nav-item
+    {
+      width: 150px;
+      padding: 20px;
+    }
+.nav-link.active {
+  color: #f7f36f; /* Change text color for active link */
+  /* Add additional styling if needed */
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+}
